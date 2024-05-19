@@ -3,7 +3,7 @@ import './App.css';
 
 
 import Home from './Home/Home';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Router, Routes } from 'react-router-dom';
 import AboutUs from './Pages/AboutUS/AboutUs';
 import Teacher from './Pages/Teacher/Teacher';
 import Business from './Pages/Business/Business';
@@ -14,7 +14,7 @@ import Team from './Pages/Team/Team';
 function App() {
 
   return (
-      <BrowserRouter>
+      <HashRouter>
         <div className='App'>
               <Routes>
                 <Route path='/' exact Component={Home} />
@@ -26,7 +26,7 @@ function App() {
               </Routes>
 
         </div>
-      </BrowserRouter>
+      </HashRouter>
 
 
 
