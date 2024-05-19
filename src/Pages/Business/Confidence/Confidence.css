@@ -1,0 +1,53 @@
+.confidence{
+    margin-top: 80px;
+}
+.confidence_header{
+    text-align: center;
+    margin-bottom:50px;
+}
+.confidence_header_title{
+    font-size:40px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.confidence_header_title > span{
+    font-weight: bolder;
+}
+.confidence_header_desc{
+    width: 45%;
+    margin: auto;
+    line-height: 1.5;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.confidence_items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 80px;
+
+}
+.confidence_item{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.confidence_item_img {
+    width: 18%;
+    display: inline-block;
+}
+.confidence_item_img > img{
+    width: 100%;
+}
+.confidence_item_title{
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.confidence_item_desc{
+    color: gray;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 1.8;
+
+}

@@ -1,0 +1,57 @@
+
+.percentage{
+    background-image: url(../../../../public/images/business/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 100px;
+}
+.perc_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: var(--maincolor);
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(var(--maincolor) 3.6deg,transparent 0deg);
+
+}
+.wrapp{
+    width: 130px;
+    height: 130px;
+    background-color:#ddd;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapp > span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.perc_item {
+    text-align: center;
+}
+.perc_item > p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+
+}

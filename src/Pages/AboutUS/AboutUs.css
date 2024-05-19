@@ -1,0 +1,42 @@
+
+.navbar{
+    background-color: black ;
+    padding-bottom: 20px;
+ }
+
+ .page_header{
+    width: 80%;
+    margin:60px auto 70px auto;
+    text-align: center;
+ }
+ .page_title{
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+ }
+ .page_path > a{
+    color: gray;
+    font-weight: lighter;
+    display: inline-block;
+    margin-right: 8px;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+ .page_path > a:hover{
+    color: var(--maincolor);
+ }
+ .page_path > i{
+    color: var(--maincolor);
+    display: inline-block;
+    margin-right: 7px;
+ }
+ .page_path > span{
+    color: gray;
+ }
+ .about_feature{
+   background-color: #f9f8f8;
+   padding: 30px 0;
+ }

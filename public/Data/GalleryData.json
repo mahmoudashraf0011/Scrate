@@ -1,0 +1,36 @@
+{
+    "imgs":[
+        {
+            "id":1,
+            "src":"images/gallary/1.jpg"
+        },
+        {
+            "id":2,
+            "src":"images/gallary/2.jpg"
+        },
+        {
+            "id":3,
+            "src":"images/gallary/3.jpg"
+        },
+        {
+            "id":4,
+            "src":"images/gallary/4.jpg"
+        },
+        {
+            "id":5,
+            "src":"images/gallary/5.jpg"
+        },
+        {
+            "id":6,
+            "src":"images/gallary/6.jpg"
+        },
+        {
+            "id":7,
+            "src":"images/gallary/7.jpg"
+        },
+        {
+            "id":8,
+            "src":"images/gallary/8.jpg"
+        }
+    ]
+}

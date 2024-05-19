@@ -1,0 +1,57 @@
+
+.abs_items{
+    display: flex;
+    
+}
+
+.abs_info{
+    flex: 1;
+    padding-left:200px ;
+    padding-top: 100px;
+    background-color: #f3efef;
+
+}
+.abs_info_title{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.abs_info_title > span{
+    font-weight: bold;
+}
+.abs_info_desc{
+    width: 70%;
+    line-height: 2;
+    color: gray;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.abs_info_sign{
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.abs_info_sign > span{
+    font-weight: lighter;
+    color: var(--maincolor);
+}
+.abs_info_img{
+    width: 40%;
+}
+.abs_info_img > img{
+    width: 100%;
+}
+.abs_bg{
+    flex: 1.3;
+    background-image: url(../../images/abs/welcome.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    
+}
+
+.abs_bg > img{
+height: 100%;
+width: 100%;
+}

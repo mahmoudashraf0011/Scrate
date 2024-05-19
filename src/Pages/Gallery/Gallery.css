@@ -1,0 +1,173 @@
+.gallery_items{
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: "one one two three" "one one four four" "five six seven seven" "eight eight seven seven";
+    grid-gap: 30px;
+    margin-bottom: 200px;
+}
+
+.gallery_item{
+   cursor: pointer;
+   position: relative;
+}
+.gallery_item > a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+ 
+}
+.gallery_items > #item1{
+    grid-area: one;
+   
+}
+.gallery_items > #item2{
+    grid-area: two;
+    height: 300px;
+}
+.gallery_items > #item3{
+    grid-area: three;
+}
+.gallery_items > #item4{
+    grid-area: four;
+    height: 400px;
+}
+
+.gallery_items > #item5{
+    grid-area: five;
+}
+.gallery_items > #item6{
+    grid-area: six;
+}
+
+.gallery_items > #item7{
+    grid-area: seven;
+}
+
+.gallery_items > #item8{
+    grid-area: eight;
+}
+
+.gallery_item::after{
+    content: "\f067";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+.gallery_items > #item1::after{
+
+    padding-top: 60%;
+}
+.gallery_items > #item2::after{
+
+    padding-top: 50%;
+}
+.gallery_items > #item3::after{
+
+    padding-top: 50%;
+}
+.gallery_items > #item4::after{
+
+    padding-top: 30%;
+}
+
+.gallery_items > #item5::after{
+
+    padding-top: 30%;
+
+}
+.gallery_items > #item6::after{
+
+    padding-top: 30%;
+
+}
+
+.gallery_items > #item7::after{
+
+    padding-top: 45%;
+}
+
+.gallery_items > #item8::after{
+
+    padding-top: 30%;
+
+
+}
+.gallery_item:hover.gallery_item:hover::after,.gallery_item:hover.gallery_item:hover::before{
+    opacity: 1;
+}
+.gallery_item::before{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: #ddd;
+    z-index: 3;
+    opacity: 0;
+    transition:opacity 0.1s 0.7s;
+    -webkit-transition:opacity 0.1s 0.7s;
+    -moz-transition:opacity 0.1s 0.7s;
+    -ms-transition:opacity 0.1s 0.7s;
+    -o-transition:opacity 0.1s 0.7s;
+}
+.gallery_items > #item1::before{
+
+    content:"students";
+}
+.gallery_items > #item2::before{
+
+    content:"library";
+}
+.gallery_items > #item3::before{
+
+    content:"painting";
+}
+.gallery_items > #item4::before{
+
+    content:"spare time";
+}
+
+.gallery_items > #item5::before{
+
+    content:"library";
+
+}
+.gallery_items > #item6::before{
+
+    content:"maths classes";
+
+}
+
+.gallery_items > #item7::before{
+
+    content:"maths classes";
+}
+
+.gallery_items > #item8::before{
+
+    content:"univercity students";
+
+
+}

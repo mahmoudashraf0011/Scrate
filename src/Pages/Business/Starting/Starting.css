@@ -1,0 +1,51 @@
+.starting{
+    background-image: url('../../../../public/images/business/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+
+}
+.starting_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+.starting_title{
+    font-size: 43px;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.starting_title > span{
+    font-weight: bold;
+
+
+}
+.starting_desc{
+    color: #fff;
+}
+.starting_btn{
+    width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    transition: color 0.4s,background-color 0.5s;
+    -webkit-transition: color 0.4s,background-color 0.5s;
+    -moz-transition: color 0.4s,background-color 0.5s;
+    -ms-transition: color 0.4s,background-color 0.5s;
+    -o-transition: color 0.4s,background-color 0.5s;
+}
+.starting_btn:hover{
+    background-color: var(--maincolor);
+    color: #fff;
+}

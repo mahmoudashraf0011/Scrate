@@ -1,0 +1,200 @@
+
+.navbar{
+    background-color:none;
+    padding-bottom: 20px;
+ }
+
+.slider{
+    background-image: url(../../images/bg4.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.slider_overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 90vh;
+    background-color: rgba(0,204,204,0.3);
+    z-index: 1;
+}
+
+.slider_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.slider_desc{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    
+}
+.slider_desc > span{
+    font-weight: bold;
+}
+.slider_search{
+margin-bottom: 75px;
+}
+.slider_searchInput{
+    width: 80%;
+    padding: 20px 30px;
+    border-radius: 30px 0 0 30px;
+    -webkit-border-radius: 30px 0 0 30px;
+    -moz-border-radius: 30px 0 0 30px;
+    -ms-border-radius: 30px 0 0 30px;
+    -o-border-radius: 30px 0 0 30px;
+    outline: 0;
+    border:0;
+    background-color: none;
+    font-size: 17px;
+}
+.slider_searchSubmit{
+    width: 20%;
+    border-radius: 0 30px 30px 0;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    -ms-border-radius: 0 30px 30px 0;
+    -o-border-radius: 0 30px 30px 0;
+    padding: 20px 15px;
+    font-size: 17px;
+    text-align: center;
+    background-color: var(--maincolor);
+    color: #fff;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+.slider_searchSubmit:hover{
+background-image: linear-gradient(to right, var(--maincolor) 20% , cyan);
+
+}
+.slider_searchInput::placeholder{
+    color: gray;
+    letter-spacing: 1px;
+}
+.slider_courses{
+    display: flex;
+}
+.slider_courses>.prev,.slider_courses>.next{
+    flex:1 ;
+    list-style: none;
+    margin-top: 40px;
+
+
+
+  
+   
+}
+.slider_courses>.next{
+    text-align: right;
+    margin-left:15px ;
+}
+.slider_courses>.prev{
+    margin-right:15px ;
+
+}
+.slider_courses>.prev > i,.slider_courses>.next > i{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    transition: color 0.5s,background-color 0.7s;
+    -webkit-transition: color 0.5s,background-color 0.7s;
+    -moz-transition: color 0.5s,background-color 0.7s;
+    -ms-transition: color 0.5s,background-color 0.7s;
+    -o-transition: color 0.5s,background-color 0.7s;
+    cursor: pointer;
+
+}
+.slider_courses>.prev > i:hover,.slider_courses>.next > i:hover{
+    background-color: #fff;
+    color: #222;
+}
+
+
+.slider_courses_items{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    grid-auto-flow: column;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.slider_courses_item{
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     height: 120px;
+     width: 110px;
+     text-align: center;
+     padding-top: 20px;
+     transition: background-color 0.5s;
+     -webkit-transition: background-color 0.5s;
+     -moz-transition: background-color 0.5s;
+     -ms-transition: background-color 0.5s;
+     -o-transition: background-color 0.5s;
+}
+
+.courseImg{
+    margin-bottom: 10px;
+}
+.courseImg > img{
+    width:40%;
+    transition: filter 0.2s;
+    -webkit-transition: filter 0.2s;
+    -moz-transition: filter 0.2s;
+    -ms-transition: filter 0.2s;
+    -o-transition: filter 0.2s;
+}
+.slider_courses_item > a >  h5{
+     font-size: 18px;
+     color: black;
+     text-transform: capitalize;
+     font-weight: normal;
+     transition:color 0.4s ;
+     -webkit-transition:color 0.4s ;
+     -moz-transition:color 0.4s ;
+     -ms-transition:color 0.4s ;
+     -o-transition:color 0.4s ;
+}
+.slider_courses_item:hover{
+    background-color:var(--maincolor)
+}
+.slider_courses_item:hover > a >  h5 {
+    color: #fff;
+}
+.slider_courses_item:hover > a > .courseImg > img{
+    filter:brightness(100);
+    -webkit-filter:brightness(100);
+}
+
