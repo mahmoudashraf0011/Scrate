@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Scrate/static/css/main.7d80437c.css",
-    "main.js": "/Scrate/static/js/main.0510204b.js",
+    "main.js": "/Scrate/static/js/main.b39c601f.js",
     "static/js/453.e9b75d71.chunk.js": "/Scrate/static/js/453.e9b75d71.chunk.js",
     "static/media/bg3.jpg": "/Scrate/static/media/bg3.1eaffb31e89bb9d62afd.jpg",
     "static/media/bg2.jpg": "/Scrate/static/media/bg2.1fe9ef4d467766b51dc2.jpg",
@@ -9,11 +9,11 @@
     "static/media/bg4.jpg": "/Scrate/static/media/bg4.649a373cccdafd9d8bed.jpg",
     "index.html": "/Scrate/index.html",
     "main.7d80437c.css.map": "/Scrate/static/css/main.7d80437c.css.map",
-    "main.0510204b.js.map": "/Scrate/static/js/main.0510204b.js.map",
+    "main.b39c601f.js.map": "/Scrate/static/js/main.b39c601f.js.map",
     "453.e9b75d71.chunk.js.map": "/Scrate/static/js/453.e9b75d71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d80437c.css",
-    "static/js/main.0510204b.js"
+    "static/js/main.b39c601f.js"
   ]
 }
