@@ -2,37 +2,37 @@
     "courses":[
         {
             "id":1,
-            "src":"../images/Slider/economy.png",
+            "src":"images/Slider/economy.png",
             "name":"Economy"
         },
         {
             "id":2,
-            "src":"../images/Slider/biology.png",
+            "src":"images/Slider/biology.png",
             "name":"Biology"
         },
         {
             "id":3,
-            "src":"../images/Slider/design.png",
+            "src":"images/Slider/design.png",
             "name":"Design"
         },
         {
             "id":4,
-            "src":"../images/Slider/geometry.png",
+            "src":"images/Slider/geometry.png",
             "name":"Geometry"
         },
         {
             "id":5,
-            "src":"../../../images/Slider/history.png",
+            "src":"images/Slider/history.png",
             "name":"History"
         },
         {
             "id":6,
-            "src":"../../../images/Slider/lang.png",
+            "src":"images/Slider/lang.png",
             "name":"Language"
         },
         {
             "id":7,
-            "src":"../../../images/Slider/math.png",
+            "src":"images/Slider/math.png",
             "name":"Math"
         }
 
