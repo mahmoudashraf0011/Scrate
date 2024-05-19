@@ -1,0 +1,146 @@
+{
+    "team":[
+        {   
+            "id":1,
+            "all":[
+                {
+                    "id":1,
+                    "src":"images/team/all/1.jpg",
+                    "name":"Samuel Williams",
+                    "job":"Professor of Mathematics"
+                },
+                {
+                    "id":2,
+                    "src":"images/team/all/2.jpg",
+                    "name":"Karren Johnson",
+                    "job":"Biology teacher"
+                },
+                {
+                    "id":3,
+                    "src":"images/team/all/3.jpg",
+                    "name":"Marisa Taylon",
+                    "job":"Geometry Teacher"
+                },
+                {
+                    "id":4,
+                    "src":"images/team/all/4.jpg",
+                    "name":"Kayl Moor",
+                    "job":"Graphic arts Teacher"
+                },
+                {
+                    "id":5,
+                    "src":"images/team/all/5.jpg",
+                    "name":"Aaron Hill",
+                    "job":"Professor of Economy"
+                },
+                {
+                    "id":6,
+                    "src":"images/team/all/6.jpg",
+                    "name":"Andy Jones",
+                    "job":"Informatic Teacher"
+                },
+                {
+                    "id":7,
+                    "src":"images/team/all/7.jpg",
+                    "name":"Mark Johnson",
+                    "job":"Algebra Teacher"
+                },
+                {
+                    "id":8,
+                    "src":"images/team/all/8.jpg",
+                    "name":"Kaylen Larson",
+                    "job":"Macroeconomy Teacher"
+                },
+                {
+                    "id":9,
+                    "src":"images/team/all/9.jpg",
+                    "name":"Andry Jone",
+                    "job":"Spanish Teacher"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "B":[{
+                "id":1,
+                "src":"images/team/B/1.jpg",
+                "name":"Karren Johnson",
+                "job":"Biology teacher"
+                }]
+        },
+        {
+            "id":3,
+            "E":[
+                {
+                 "id":1,
+                 "src":"images/team/E/1.jpg",
+                 "name":"Kaylen Larson",
+                 "job":"Macroeconomy Teacher"
+                },
+                {
+                 "id":2,
+                 "src":"images/team/E/2.jpg",
+                 "name":"Andry Jone",
+                 "job":"Spanish Teacher"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "GE":[
+                {
+                "id":1,
+                "src":"images/team/GE/1.jpg",
+                "name":"Marisa Taylon",
+                "job":"Geometry Teacher"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "GR":[
+                {
+                "id":1,
+                "src":"images/team/GR/1.jpg",
+                "name":"Kayl Moor",
+                "job":"Graphic Arts"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "L":[
+                {
+                "id":1,
+                "src":"images/team/L/1.jpg",
+                "name":"Aaron Hill",
+                "job":"Professor of Economy"
+                },
+                {
+                "id":2,
+                "src":"images/team/L/2.jpg",
+                "name":"Andy Jones",
+                "job":"Informatic Teacher"
+                }
+            ]
+        },
+        {
+            "id":7,
+            "M":[
+                {
+                "id":1,
+                "src":"images/team/M/1.jpg",
+                "name":"Samuel Williams",
+                "job":"Professor of Mathematics"
+                },
+                {
+                "id":2,
+                "src":"images/team/M/2.jpg",
+                "name":"Mark Johnson",
+                "job":"Algebra Teacher"
+                }
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mahmoudashraf0011/Scrate/static/css/main.d7981005.css",
+    "main.js": "/mahmoudashraf0011/Scrate/static/js/main.1728122f.js",
+    "static/js/453.e9b75d71.chunk.js": "/mahmoudashraf0011/Scrate/static/js/453.e9b75d71.chunk.js",
+    "static/media/bg3.jpg": "/mahmoudashraf0011/Scrate/static/media/bg3.1eaffb31e89bb9d62afd.jpg",
+    "static/media/bg2.jpg": "/mahmoudashraf0011/Scrate/static/media/bg2.1fe9ef4d467766b51dc2.jpg",
+    "static/media/welcome.jpg": "/mahmoudashraf0011/Scrate/static/media/welcome.be2cc70b3e65d5a97b30.jpg",
+    "static/media/bg4.jpg": "/mahmoudashraf0011/Scrate/static/media/bg4.649a373cccdafd9d8bed.jpg",
+    "index.html": "/mahmoudashraf0011/Scrate/index.html",
+    "main.d7981005.css.map": "/mahmoudashraf0011/Scrate/static/css/main.d7981005.css.map",
+    "main.1728122f.js.map": "/mahmoudashraf0011/Scrate/static/js/main.1728122f.js.map",
+    "453.e9b75d71.chunk.js.map": "/mahmoudashraf0011/Scrate/static/js/453.e9b75d71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7981005.css",
+    "static/js/main.1728122f.js"
+  ]
+}

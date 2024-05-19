@@ -1,0 +1,40 @@
+{
+    "features":[
+        {
+            "id":1,
+            "src":"images/attr1.png",
+            "title":"Cloud Library",
+            "desc":"Morbi eget maximus diam, vel rutrum orci. Curabitur dictum augue sit amet laoreet dignissim. Etiam feugiat nisl est."
+        },
+        {
+            "id":2,
+            "src":"images/attr2.png",
+            "title":"Certifications",
+            "desc":"Morbi eget maximus diam, vel rutrum orci. Curabitur dictum augue sit amet laoreet dignissim. Etiam feugiat nisl est."
+        },
+        {
+            "id":3,
+            "src":"images/attr3.png",
+            "title":"Video Lessons",
+            "desc":"Morbi eget maximus diam, vel rutrum orci. Curabitur dictum augue sit amet laoreet dignissim. Etiam feugiat nisl est."
+        },
+        {
+            "id":4,
+            "src":"images/attr4.png",
+            "title":"Train Your Brain",
+            "desc":"Morbi eget maximus diam, vel rutrum orci. Curabitur dictum augue sit amet laoreet dignissim. Etiam feugiat nisl est."
+        },
+        {
+            "id":5,
+            "src":"images/attr5.png",
+            "title":"Master the Skils",
+            "desc":"Morbi eget maximus diam, vel rutrum orci. Curabitur dictum augue sit amet laoreet dignissim. Etiam feugiat nisl est."
+        },
+        {
+            "id":6,
+            "src":"images/attr6.png",
+            "title":"Graduate the Best",
+            "desc":"Morbi eget maximus diam, vel rutrum orci. Curabitur dictum augue sit amet laoreet dignissim. Etiam feugiat nisl est."
+        }
+    ]
+}

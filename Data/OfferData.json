@@ -1,0 +1,32 @@
+{
+    "offers":[
+        {
+            "id":1,
+            "src":"images/Become_a_teacher/offer1.jpg",
+            "title":"Teacher of Microeconomy",
+            "desc":"Aliquam ultrices risus et nunc pharetra sodales. Maecenas nunc dui, dapibus a congue ut, viverra.",
+            "btn":"Read more"
+        },
+        {
+            "id":2,
+            "src":"images/Become_a_teacher/offer2.jpg",
+            "title":"Teacher of Design",
+            "desc":"Donec aliquet dui lacus, sed dignissim eros elentum quis. Nullam molestie consequat massa nonus.",
+            "btn":"Read more"
+        },
+        {
+            "id":3,
+            "src":"images/Become_a_teacher/offer3.jpg",
+            "title":"Assistant Professor of Mathematics",
+            "desc":"Phasellus faucibus, augue at vestibulum suscipit, nisi lorem lobortis leo, in ultrices velit lectus eu ante.",
+            "btn":"Read more"
+        },
+        {
+            "id":4,
+            "src":"images/Become_a_teacher/offer4.jpg",
+            "title":"Teacher of UI Design",
+            "desc":"Aliquam ultrices risus et nunc pharetra sodales. Maecenas nunc dui, dapibus a congue ut, viverra.",
+            "btn":"Read more"
+        }
+    ]
+}
