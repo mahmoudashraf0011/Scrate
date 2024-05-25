@@ -1,4 +1,4 @@
-# This is Course Mangement System 
+# This is Course Mangement System Template 
 # Used Languages 
   - HTML , HTML5
   - CSS , CSS3
